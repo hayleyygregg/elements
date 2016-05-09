@@ -78,16 +78,6 @@ header img.logo {
     
 }
 
-/* ul {
-
-    text-align: center;
-    width: 250px;  was 200 
-    width: 180px;
-    margin: auto;
-    padding-top: 30px;
-    
-} */
-
 ul {
     
     text-align: center;
@@ -206,6 +196,7 @@ ul li {
     background-color: #fff;
     
 }
+
 
 
 img.atom {

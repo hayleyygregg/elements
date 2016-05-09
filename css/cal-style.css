@@ -52,19 +52,20 @@ p {
 }
 
 
-h2, p.hydro-intro, table, footer, a.hydro-link {
+h2, p.cal-intro, table, footer {
     
-    color: #36c8ff;
-    
-}
-
-p.hydro {
-    
-    color: #00ADEF;
+    color: #FCE6F0;
     
 }
 
-p.hydro, p.hydro-intro {
+p.cal {
+    
+    color: #ff68c1;
+/*    color: #EC008B; original colour - hard to read */
+    
+}
+
+p.cal, p.cal-intro {
     
         padding: 15px 0;
     
@@ -78,16 +79,6 @@ header img.logo {
     
 }
 
-/* ul {
-
-    text-align: center;
-    width: 250px;  was 200 
-    width: 180px;
-    margin: auto;
-    padding-top: 30px;
-    
-} */
-
 ul {
     
     text-align: center;
@@ -97,6 +88,7 @@ ul {
     padding-top: 30px;
     
 }
+
 
 ul li {
     
@@ -208,6 +200,7 @@ ul li {
 }
 
 
+
 img.atom {
     
     width: 450px;
@@ -246,12 +239,11 @@ section.white-space-useage {
 
 p.symbol {
     
-    font-size: 20em;
+    font-size: 16em;
     display: inline;
-/*    padding-left: 50px;*/
-/*    float: left;*/
-    line-height: normal;
-    padding: 0;
+    position: relative;
+    top: 15px;
+    right: 20px;
 }
 
 table {
@@ -273,14 +265,14 @@ div.wrapper {
     
     width: 600px;
     margin: auto;
-    color: #00ADEF;
+    color: #EC008B;
 /*
     background-color: red;
     
 */
 }
 
-.hydro-atom-decor img {
+.cal-atom-decor img {
     
     width: 1650px;
     position: absolute;
@@ -317,17 +309,6 @@ footer a:hover {
     
 }
 
-a.hydro-link {
-    
-    border-bottom: 1px solid #36c8ff;
-    
-}
-
-a.hydro-link:hover {
-    
-    color: #00ADEF;
-    border-bottom: 1px solid #00ADEF;
-}
 
 .slide-wrapper {
 

@@ -52,19 +52,19 @@ p {
 }
 
 
-h2, p.hydro-intro, table, footer, a.hydro-link {
+h2, p.nitro-intro, table, footer {
     
-    color: #36c8ff;
-    
-}
-
-p.hydro {
-    
-    color: #00ADEF;
+    color: #8CC63E;
     
 }
 
-p.hydro, p.hydro-intro {
+p.nitro {
+    
+    color: #38B449;
+    
+}
+
+p.nitro, p.nitro-intro {
     
         padding: 15px 0;
     
@@ -77,16 +77,6 @@ header img.logo {
     float: left;
     
 }
-
-/* ul {
-
-    text-align: center;
-    width: 250px;  was 200 
-    width: 180px;
-    margin: auto;
-    padding-top: 30px;
-    
-} */
 
 ul {
     
@@ -208,6 +198,7 @@ ul li {
 }
 
 
+
 img.atom {
     
     width: 450px;
@@ -273,14 +264,14 @@ div.wrapper {
     
     width: 600px;
     margin: auto;
-    color: #00ADEF;
+    color: #38B449;
 /*
     background-color: red;
     
 */
 }
 
-.hydro-atom-decor img {
+.nitro-atom-decor img {
     
     width: 1650px;
     position: absolute;
@@ -317,17 +308,6 @@ footer a:hover {
     
 }
 
-a.hydro-link {
-    
-    border-bottom: 1px solid #36c8ff;
-    
-}
-
-a.hydro-link:hover {
-    
-    color: #00ADEF;
-    border-bottom: 1px solid #00ADEF;
-}
 
 .slide-wrapper {
 

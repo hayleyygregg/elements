@@ -52,19 +52,20 @@ p {
 }
 
 
-h2, p.hydro-intro, table, footer, a.hydro-link {
+h2, p.pot-intro, table, footer, a.pot-link {
     
-    color: #36c8ff;
-    
-}
-
-p.hydro {
-    
-    color: #00ADEF;
+    color: #D5ABD0;
     
 }
 
-p.hydro, p.hydro-intro {
+p.pot {
+    
+    color: #be7eef;
+
+    
+}
+
+p.pot, p.pot-intro {
     
         padding: 15px 0;
     
@@ -77,16 +78,6 @@ header img.logo {
     float: left;
     
 }
-
-/* ul {
-
-    text-align: center;
-    width: 250px;  was 200 
-    width: 180px;
-    margin: auto;
-    padding-top: 30px;
-    
-} */
 
 ul {
     
@@ -208,6 +199,7 @@ ul li {
 }
 
 
+
 img.atom {
     
     width: 450px;
@@ -273,14 +265,14 @@ div.wrapper {
     
     width: 600px;
     margin: auto;
-    color: #00ADEF;
+    color: #be7eef;
 /*
     background-color: red;
     
 */
 }
 
-.hydro-atom-decor img {
+.pot-atom-decor img {
     
     width: 1650px;
     position: absolute;
@@ -305,6 +297,19 @@ a {
     
 }
 
+a.pot-link {
+    
+    
+    border-bottom: 1px solid #D5ABD0;
+    
+}
+
+a.pot-link:hover {
+    
+    color: #be7eef;
+    border-bottom: 1px solid #be7eef;
+}
+
 footer a {
     
     color: #33e2d5;
@@ -317,17 +322,6 @@ footer a:hover {
     
 }
 
-a.hydro-link {
-    
-    border-bottom: 1px solid #36c8ff;
-    
-}
-
-a.hydro-link:hover {
-    
-    color: #00ADEF;
-    border-bottom: 1px solid #00ADEF;
-}
 
 .slide-wrapper {
 

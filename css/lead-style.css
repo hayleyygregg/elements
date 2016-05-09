@@ -52,19 +52,20 @@ p {
 }
 
 
-h2, p.hydro-intro, table, footer, a.hydro-link {
+h2, p.lead-intro, table, footer, a.lead-link {
     
-    color: #36c8ff;
-    
-}
-
-p.hydro {
-    
-    color: #00ADEF;
+    color: #e4ecf0;
     
 }
 
-p.hydro, p.hydro-intro {
+p.lead {
+    
+    color: #cadee8; /* 94B0BF orig too dark for legibility */
+
+    
+}
+
+p.lead, p.lead-intro {
     
         padding: 15px 0;
     
@@ -77,16 +78,6 @@ header img.logo {
     float: left;
     
 }
-
-/* ul {
-
-    text-align: center;
-    width: 250px;  was 200 
-    width: 180px;
-    margin: auto;
-    padding-top: 30px;
-    
-} */
 
 ul {
     
@@ -208,6 +199,7 @@ ul li {
 }
 
 
+
 img.atom {
     
     width: 450px;
@@ -246,12 +238,11 @@ section.white-space-useage {
 
 p.symbol {
     
-    font-size: 20em;
+    font-size: 16em;
     display: inline;
-/*    padding-left: 50px;*/
-/*    float: left;*/
-    line-height: normal;
-    padding: 0;
+    position: relative;
+    top: 15px;
+    right: 20px;
 }
 
 table {
@@ -273,19 +264,19 @@ div.wrapper {
     
     width: 600px;
     margin: auto;
-    color: #00ADEF;
+    color: #94B0BF;
 /*
     background-color: red;
     
 */
 }
 
-.hydro-atom-decor img {
+.lead-atom-decor img {
     
     width: 1650px;
     position: absolute;
     left: -500px;
-    opacity: 0.6;
+    opacity: 0.5;
     z-index: -1;
     
 }
@@ -305,6 +296,22 @@ a {
     
 }
 
+a.lead-link {
+    
+    
+    border-bottom: 1px solid #e4ecf0;
+    
+}
+
+a.lead-link:hover {
+    
+    color: #cadee8;
+    border-bottom: 1px solid #cadee8;
+
+}
+
+
+
 footer a {
     
     color: #33e2d5;
@@ -317,17 +324,6 @@ footer a:hover {
     
 }
 
-a.hydro-link {
-    
-    border-bottom: 1px solid #36c8ff;
-    
-}
-
-a.hydro-link:hover {
-    
-    color: #00ADEF;
-    border-bottom: 1px solid #00ADEF;
-}
 
 .slide-wrapper {
 
